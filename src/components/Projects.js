@@ -2,7 +2,7 @@
 import Whitelist from '../assets/Whitelist.png';
 import CoinMarketCap from '../assets/Coin MarketCap Clone.png';
 import Invoicing from '../assets/Invoicing.png';
-
+import CheckContractAddressOrRegularAddress from '../assets/CheckContractAddressOrRegularAddress.png'
 const Projects = () => {
     return (
         <section className="projects">
@@ -43,6 +43,17 @@ const Projects = () => {
 
                     <a href="https://coderraj07.github.io/Invoice-Details-Project/InvoiceDetails.html" target="_blank" className="button">Site</a>
                     <a href="https://github.com/coderRaj07/Invoice-Details-Project" target="_blank" className="button">Code</a>
+                </div>
+
+                <div className="projects__card">
+                    <h3>Coin MarketCap Clone</h3>
+                    <img src={CheckContractAddressOrRegularAddress} alt="CheckContractAddressOrRegularAddress Page" />
+                    <p><li>To Check the provided address is of Contract Address or Regular Address or Invalid Address</li>
+                       <li>This site uses ethersjs to connect frontend with backend of solidity which uses a predefined algorithm to verify the provided address </li>
+                    </p>
+
+                    <a href="https://coderraj07.github.io/Check-Address-is-Contract-Address-or-Regular-Address/" target="_blank" className="button">Site</a>
+                    <a href="https://github.com/coderRaj07/Check-Address-is-Contract-Address-or-Regular-Address" target="_blank" className="button">Code</a>
                 </div>
             </div>
         </section>
