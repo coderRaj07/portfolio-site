@@ -54,7 +54,7 @@ const Projects = () => {
                        <li>This site uses ethersjs to connect frontend with backend of solidity which uses a predefined algorithm to verify the provided address </li>
                     </p>
 
-                    <a href="https://coderraj07.github.io/Check-Address-is-Contract-Address-or-Regular-Address/" target="_blank" className="button">Site</a>
+                    <a href="https://address-validator-theta.vercel.app/" target="_blank" className="button">Site</a>
                     <a href="https://github.com/coderRaj07/Check-Address-is-Contract-Address-or-Regular-Address" target="_blank" className="button">Code</a>
                 </div>
 
@@ -73,7 +73,7 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3><b>Uniswap V3 pool finder</b></h3>
-                    <img src={uniswapV3PoolFinder} alt="CheckContractAddressOrRegularAddress Page" />
+                    <img src={uniswapV3PoolFinder} alt="uniswapV3PoolFinder Page" />
                     <p><li>Earlier I had a problem of getting pool Address to perform swap using Uniswap Labs V3 protocol programmatically</li>
                        <li>So I created a Dapp using which we can get Pool Address of any two pairs of tokens available on Uniswap V3 Protocol</li>
                        <br/>
@@ -83,7 +83,17 @@ const Projects = () => {
                     <a href="https://github.com/coderRaj07/Uniswap_V3_Pool_Address_Finder" target="_blank" className="button">Code</a>
                 </div>
 
+                <div className="projects__card">
+                    <h3><b>Uniswap V3 Token Details finder</b></h3>
+                    <img src={uniswapV3TokenDetailsFinder} alt="uniswapV3TokenDetailsFinder Page" />
+                    <p><li>Earlier I had a problem of getting pool Address to perform swap using Uniswap Labs V3 protocol programmatically</li>
+                       <li>So I created a Dapp using which we can get Pool Address of any two pairs of tokens available on Uniswap V3 Protocol</li>
+                       <br/>
+                    </p>
 
+                    <a href="https://token-details-finder.vercel.app/" target="_blank" className="button">Site</a>
+                    <a href="https://github.com/coderRaj07/Token-Details-Finder-Using-Uniswap-V3-Subgraph" target="_blank" className="button">Code</a>
+                </div>
             </div>
         </section>
     );
