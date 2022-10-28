@@ -87,8 +87,8 @@ const Projects = () => {
                 <div className="projects__card">
                     <h3><b>Uniswap V3 Token Details finder</b></h3>
                     <img src={uniswapV3TokenDetailsFinder} alt="uniswapV3TokenDetailsFinder Page" />
-                    <p><li>Earlier I had a problem of getting pool Address to perform swap using Uniswap Labs V3 protocol programmatically</li>
-                       <li>So I created a Dapp using which we can get Pool Address of any two pairs of tokens available on Uniswap V3 Protocol</li>
+                    <p><li>We can find the details about any token that is getting traded on Uniswap V3 Protocol</li>
+                       <li>This Dapp uses GraphQL to query the Uniswap V3 subgraph and axios to fetch data from that particular subgraph</li>
                        <br/>
                     </p>
 
