@@ -88,7 +88,7 @@ const Projects = () => {
                 <div className="projects__card">
                     <h3><b>Uniswap V3 Token Details finder</b></h3>
                     <img src={uniswapV3TokenDetailsFinder} alt="uniswapV3TokenDetailsFinder Page" />
-                    <p> <li>Searchiing for an address of a particular token may result getting a wrong address</li>
+                    <p> <li>Searching for an address of a particular token may result getting a wrong address</li>
                         <li>Using this dapp We can find the details about any token that is getting traded on Uniswap V3 Protocol just by putting the Token's symbol</li>
                         <li>This Dapp uses GraphQL to query the Uniswap V3 subgraph and axios to fetch data from that particular subgraph</li>
                        <br/>
