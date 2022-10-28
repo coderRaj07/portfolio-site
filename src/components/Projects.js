@@ -103,7 +103,7 @@ const Projects = () => {
                     <img src={uniswapV3Oracle} alt="uniswapV3Oracle page" />
                     <p><li>The Price and amount out shown in the Uniswap can easily be manipulated, if attacker knows that we are relying on it's latest price </li>
                        <li>The attacker can make a really large trade on Uniswap when liquidity is low and it changes the price </li>
-                       <li>To avoid such oracle problem I have created a smart contract that uses OracleLibrary.sol functionalities to calculate the amount of token to be received</li>
+                       <li>To avoid such oracle problems I have created a Dapp that fetches OracleLibrary.sol functionalities through our custom smart contract to calculate the amount of tokens to be received and shows the token amount to be received on frontend</li>
                        <br/>
                     </p>
 
