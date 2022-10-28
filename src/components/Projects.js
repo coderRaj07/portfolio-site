@@ -5,6 +5,7 @@ import Invoicing from '../assets/Invoicing.png';
 import defiTippingDapp from '../assets/defiTippingDapp.png';
 import uniswapV3PoolFinder from '../assets/uniswapV3PoolFinder.png';
 import CheckContractAddressOrRegularAddress from '../assets/CheckContractAddressOrRegularAddress.png'
+import uniswapV3TokenDetailsFinder from '../assets/uniswapV3TokenDetailsFinder.png'
 const Projects = () => {
     return (
         <section className="projects">
