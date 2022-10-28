@@ -6,6 +6,7 @@ import defiTippingDapp from '../assets/defiTippingDapp.png';
 import uniswapV3PoolFinder from '../assets/uniswapV3PoolFinder.png';
 import CheckContractAddressOrRegularAddress from '../assets/CheckContractAddressOrRegularAddress.png'
 import uniswapV3TokenDetailsFinder from '../assets/uniswapV3TokenDetailsFinder.png'
+import uniswapV3Oracle from '../assets/uniswapV3Oracle.png'
 const Projects = () => {
     return (
         <section className="projects">
@@ -94,6 +95,19 @@ const Projects = () => {
 
                     <a href="https://token-details-finder.vercel.app/" target="_blank" className="button">Site</a>
                     <a href="https://github.com/coderRaj07/Token-Details-Finder-Using-Uniswap-V3-Subgraph" target="_blank" className="button">Code</a>
+                </div>
+
+                 <div className="projects__card">
+                    <h3><b>Uniswap V3 Oracle</b></h3>
+                    <img src={uniswapV3Oracle} alt="uniswapV3Oracle page" />
+                    <p><li>The Price and amount out shown in the Uniswap can easily be manipulated, if attacker knows that we are relying on it's latest price </li>
+                       <li>The attacker can make a really large trade on Uniswap when liquidity is low and it changes the price </li>
+                       <li>To avoid such oracle problem I have created a smart contract that uses OracleLibrary.sol functionalities to calculate the amount of token to be received</li>
+                       <br/>
+                    </p>
+
+                    <a href="https://uniswapv3oracle.vercel.app/" target="_blank" className="button">Site</a>
+                    <a href="https://github.com/coderRaj07/UniswapV3_Oracle" target="_blank" className="button">Code</a>
                 </div>
             </div>
         </section>
