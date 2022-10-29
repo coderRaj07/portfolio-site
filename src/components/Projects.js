@@ -88,9 +88,9 @@ const Projects = () => {
                 <div className="projects__card">
                     <h3><b>Uniswap V3 Token Details finder</b></h3>
                     <img src={uniswapV3TokenDetailsFinder} alt="uniswapV3TokenDetailsFinder Page" />
-                    <p> <li>Searching for an address of a particular token may result getting a wrong address</li>
-                        <li>Using this dapp We can find the details about any token that is getting traded on Uniswap V3 Protocol just by putting the Token's symbol</li>
-                        <li>This Dapp uses GraphQL to query the Uniswap V3 subgraph and axios to fetch data from that particular subgraph</li>
+                    <p> <li>Searching for an address of a particular token is an hectic process and we may end up getting a wrong address</li>
+                        <li>Using this dapp We can find the address as well as other details about any token that is getting traded on Uniswap V3 Protocol just by putting the Token's symbol as an input</li>
+                        <li>This Dapp uses GraphQL to query the <b>Uniswap V3 subgraph</b> and axios to fetch data from that particular subgraph</li>
                        <br/>
                     </p>
 
@@ -103,7 +103,7 @@ const Projects = () => {
                     <img src={uniswapV3Oracle} alt="uniswapV3Oracle page" />
                     <p><li>The Price and amount out shown in the Uniswap can easily be manipulated, if attacker knows that we are relying on it's latest price </li>
                        <li>The attacker can make a really large trade on Uniswap when liquidity is low and it changes the price </li>
-                       <li>To avoid such oracle problems I have created a Dapp that fetches OracleLibrary.sol functionalities through our custom smart contract to calculate the amount of tokens to be received and shows the token amount to be received on frontend</li>
+                       <li>To avoid such oracle problems I have created a Dapp that fetches <b>OracleLibrary.sol</b> functionalities through our custom smart contract to calculate the amount of tokens to be received and shows the token amount to be received on frontend</li>
                        <br/>
                     </p>
 
