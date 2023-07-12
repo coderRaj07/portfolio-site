@@ -33,7 +33,7 @@ const Projects = () => {
                     <li>This site uses Solidity as backend and Nextjs as Frontend with Ethersjs as Middleware</li>
                     </p>
 
-                    <a href="https://whitelist-dapp-8u2n3x3t1-coderraj07.vercel.app/" target="_blank" className="button">Site</a>
+                    <a href="https://whitelist-dapp-one-azure.vercel.app/" target="_blank" className="button">Site</a>
                     <a href="https://github.com/coderRaj07/WhiteList_DApp" target="_blank" className="button">Code</a>
                 </div>
 
